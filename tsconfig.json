@@ -1,0 +1,13 @@
+{
+    "compilerOptions": {
+        "target": "es6", //versão do ES usado
+        "outDir": "app/js", //saída da compilação
+        "noEmitOnError": true, //não compila enquanto o ts tiver erros
+        "noImplicitAny": true, //força a tipagem, não declara com any
+        "removeComments": true // remove comentários do arquivo JS resultante da compilação do nosso código TS
+    },
+    
+    "include": [
+        "app/ts/**/*"
+    ]
+}
